@@ -64,11 +64,11 @@ export default function UserSection () {
           <React.Fragment>
             <Grid item sx={{ paddingBottom: "80px" }} container justifyContent="center">
               <Title title="TO GO" backgroundColor="primary.main" />
-              <Box component="img" src="img/G_2.png" sx={{ width: "100%", height: "100%" }} />
+              <Box component="img" src="img/G_1_delivery.png" sx={{ width: "100%", height: "100%" }} />
             </Grid>
             <Grid item sx={{ paddingBottom: "80px" }} container justifyContent="center">
               <Title title="DELIVERY" backgroundColor="secondary.main" />
-              <Box component="img" src="img/G_4.png" sx={{ width: "100%", height: "100%" }} />
+              <Box component="img" src="img/G_12_delivery.png" sx={{ width: "100%", height: "100%" }} />
             </Grid>
           </React.Fragment>
         )}

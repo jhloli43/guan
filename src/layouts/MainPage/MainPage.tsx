@@ -39,7 +39,7 @@ export default function MainPage() {
         }}>
         <AppBar position="static" elevation={0} sx={{ backgroundColor: "transparent" }}>
           <Toolbar disableGutters>
-            <Box component="img" src="img/logo_guan.svg" width="90px" height="30px" sx={{ display: { xs: "none", md: "flex" } }} />
+            <Box component="img" src={alignment === "user" ? "img/logo_guan.png" : "img/logo_guan_grey.png"} width="90px" sx={{ display: { xs: "none", md: "flex" } }} />
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton sx={{ color: "white" }} onClick={handleOpenNavMenu}>
                 <MenuIcon />
