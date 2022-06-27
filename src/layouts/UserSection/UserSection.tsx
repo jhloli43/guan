@@ -52,8 +52,20 @@ export default function UserSection () {
         {way === "restaurant" ? (
           <React.Fragment>
             <Grid item sx={{ paddingBottom: "80px" }} container justifyContent="center">
-              <Title title="EN MESA" backgroundColor="primary.main" />
-              <Box component="img" src="img/G_2.png" sx={{ width: "100%", height: "100%" }} />
+              <Grid item sx={{ paddingBottom: "40px" }}>
+                <Title title="EN MESA" backgroundColor="primary.main" />
+              </Grid>
+              <Grid item xs={12} container spacing={8}>
+                <Grid item md={4} xs={12} container justifyContent="center">
+                  <Box component="img" src="img/restaurant/R_1.png" sx={{ maxWidth: "100%", height: "auto" }} />
+                </Grid>
+                <Grid item md={4} xs={12} container justifyContent="center">
+                  <Box component="img" src="img/restaurant/R_2.png" sx={{ maxWidth: "100%", height: "auto" }} />
+                </Grid>
+                <Grid item md={4} xs={12} container justifyContent="center">
+                  <Box component="img" src="img/restaurant/R_3.png" sx={{ maxWidth: "100%", height: "auto" }} />
+                </Grid>
+              </Grid>
             </Grid>
             <Grid item sx={{ paddingBottom: "80px" }} container justifyContent="center">
               <Title title="PRE-ORDENA" backgroundColor="secondary.main" />
@@ -63,8 +75,20 @@ export default function UserSection () {
         ) : (
           <React.Fragment>
             <Grid item sx={{ paddingBottom: "80px" }} container justifyContent="center">
-              <Title title="TO GO" backgroundColor="primary.main" />
-              <Box component="img" src="img/G_1_delivery.png" sx={{ width: "100%", height: "100%" }} />
+              <Grid item sx={{ paddingBottom: "40px" }}>
+                <Title title="TO GO" backgroundColor="primary.main" />
+              </Grid>
+              <Grid item xs={12} container spacing={8}>
+                <Grid item md={4} xs={12} container justifyContent="center">
+                  <Box component="img" src="img/delivery/D_1.png" sx={{ maxWidth: "100%", height: "auto" }} />
+                </Grid>
+                <Grid item md={4} xs={12} container justifyContent="center">
+                  <Box component="img" src="img/delivery/D_2.png" sx={{ maxWidth: "100%", height: "auto" }} />
+                </Grid>
+                <Grid item md={4} xs={12} container justifyContent="center">
+                  <Box component="img" src="img/delivery/D_3.png" sx={{ maxWidth: "100%", height: "auto" }} />
+                </Grid>
+              </Grid>
             </Grid>
             <Grid item sx={{ paddingBottom: "80px" }} container justifyContent="center">
               <Title title="DELIVERY" backgroundColor="secondary.main" />
